@@ -78,7 +78,7 @@ img{
         height: auto;
     }
     .choice:hover{
-    background-color:transparent;
+    background-color:#fff;
 }
     #userscore, #computerscore {
         font-size: 2.5rem;
@@ -94,7 +94,7 @@ img{
         height: 100px;
     }
     .choice:hover{
-    background-color:transparent;
+    background-color:#fff;
 }
     img {
         width: 60px;
