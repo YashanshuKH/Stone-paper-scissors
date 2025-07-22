@@ -5,6 +5,8 @@ const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 const userscorepara = document.querySelector("#userscore");
 const compscorepara = document.querySelector("#computerscore");
+const message = document.querySelector(".message");
+
 
 const getcompchoice = () => {
     const options = ["rock", "paper", "scissors"];
@@ -14,7 +16,7 @@ const getcompchoice = () => {
 
 const drawgame = () => {
     msg.innerText = "Game was a draw. Play again!";
-    msg.style.backgroundColor = "#081b31";
+    message.style.backgroundColor = "#081b31";
 };
 
 const showwinner = (userwin, userchoice, compchoice) => {
@@ -22,12 +24,12 @@ const showwinner = (userwin, userchoice, compchoice) => {
         userscore++;
         userscorepara.innerText = userscore;
         msg.innerText = `You win! Your ${userchoice} beats ${compchoice}`;
-        msg.style.backgroundColor = "green";
+        message.style.backgroundColor = "green";
     } else {
         computerscore++;
         compscorepara.innerText = computerscore;
         msg.innerText = `You lost! ${compchoice} beats your ${userchoice}`;
-        msg.style.backgroundColor = "red";
+        message.style.backgroundColor = "red";
     }
 };
 
