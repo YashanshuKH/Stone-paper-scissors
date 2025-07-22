@@ -97,5 +97,7 @@ img{
     }
     .message{
         font-size: 1rem;
+        width: 80%
+        height: auto;
     }
 }
