@@ -76,3 +76,26 @@ img{
         font-size: 2.5rem;
     }
 }
+@media screen and (max-width: 400px){
+    .choices {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .choice {
+        width: 100px;
+        height: 100px;
+    }
+    img {
+        width: 60px;
+        height: 60px;
+    }
+    .scoreboard {
+        font-size: 1.5rem;
+    }
+    #userscore, #computerscore {
+        font-size: 2rem;
+    }
+    .message{
+        font-size: 1.5rem;
+    }
+}
