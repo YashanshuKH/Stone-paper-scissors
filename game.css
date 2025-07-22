@@ -55,3 +55,24 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+@media screen and (max-width: 600px) {
+    .choices {
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .choice {
+        width: 120px;
+        height: 120px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+    }
+    .scoreboard {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #userscore, #computerscore {
+        font-size: 2.5rem;
+    }
+}
